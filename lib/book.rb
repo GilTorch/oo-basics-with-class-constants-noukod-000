@@ -1,6 +1,6 @@
 class Book
 
-  GENRES=[]
+  GENRES=["Thriller"]
 
   attr_accessor :author, :page_count, :genre
   attr_reader :title
