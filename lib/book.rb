@@ -1,7 +1,6 @@
 class Book
 
   GENRES=["Thriller","Science Fiction","Romance"]
-  BRANDS=["Adidas"]
 
   attr_accessor :author, :page_count, :genre
   attr_reader :title
