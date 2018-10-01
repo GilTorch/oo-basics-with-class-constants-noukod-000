@@ -1,6 +1,6 @@
 class Shoe
 
-  @@BRANDS=[]
+  BRANDS=[]
 
 
   attr_accessor :color, :size, :material, :condition
@@ -8,6 +8,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    BRANDS << brand
   end
 
   def cobble
