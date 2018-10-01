@@ -1,6 +1,6 @@
 class Shoe
 
-  BRANDS=[Uggs","Rainbow"]
+  BRANDS=["Uggs","Rainbow"]
 
 
   attr_accessor :color, :size, :material, :condition
